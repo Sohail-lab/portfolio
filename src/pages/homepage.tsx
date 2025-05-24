@@ -33,6 +33,17 @@ import { useTheme } from '@/context/ThemeContext'
 import { TypingEffect } from "@/components/ui/typing-effect"
 import { ThemeTransition } from "@/components/ui/theme-transition"
 
+import restateImg from "@/assets/images/restate.png";
+import chirpImg from "@/assets/images/chirp_1.jpg";
+import erpImg from "@/assets/images/erp.png";
+import verdantImg from "@/assets/images/verdant.png";
+import portfolioImg from "@/assets/images/portfolio.png";
+import tictacImg from "@/assets/images/tictac_2.jpg";
+import weatherImg from "@/assets/images/weather.jpg";
+import chessImg from "@/assets/images/chess.jpg";
+import lmsImg from "@/assets/images/lms.png";
+
+
 const FORMSPREE_ENDPOINT = import.meta.env.VITE_FORMSPREE_ENDPOINT
 
 const portfolioData = {
@@ -71,7 +82,7 @@ const portfolioData = {
             title: "ReState - Real State App",
             description:
                 "Build a demo real state buying and selling app.",
-            image: "/src/assets/images/restate.png",
+            image: restateImg,
             technologies: ["React Native", "Appwrite", "TypeScript"],
             github: "",
             live: "",
@@ -81,7 +92,7 @@ const portfolioData = {
             title: "Chirp - Messaging App",
             description:
                 "Build a real-time end-to-end messaging app for personal communication.",
-            image: "/src/assets/images/chirp_1.jpg",
+            image: chirpImg,
             technologies: ["Flutter", "Firebase", "Dart"],
             github: "",
             live: "",
@@ -90,7 +101,7 @@ const portfolioData = {
         {
             title: "College ERP Website",
             description: "Responsive ERP demo website (Still have some features left to implement).",
-            image: "/src/assets/images/erp.png",
+            image: erpImg,
             technologies: ["Next.js", "Tailwind CSS"],
             github: "",
             live: "",
@@ -99,7 +110,7 @@ const portfolioData = {
         {
             title: "Verdant Day Planner App",
             description: "Responsive day planner app with AI to prioritize your tasks.",
-            image: "/src/assets/images/verdant.png",
+            image: verdantImg,
             technologies: ["React.js", "Tailwind CSS", "GenKit"],
             github: "",
             live: "",
@@ -108,7 +119,7 @@ const portfolioData = {
         {
             title: "Portfolio Website",
             description: "Responsive portfolio website with smooth animations, dark mode, and optimized performance.",
-            image: "/src/assets/images/portfolio.png",
+            image: portfolioImg,
             technologies: ["React.js", "Framer Motion", "Tailwind CSS"],
             github: "",
             live: "",
@@ -117,7 +128,7 @@ const portfolioData = {
         {
             title: "Tic Tac Toe",
             description: "Responsive Tic Tac Toe game with smooth animations for both web and mobile.",
-            image: "/src/assets/images/tictac_2.jpg",
+            image: tictacImg,
             technologies: ["Flutter", "Dart"],
             github: "",
             live: "",
@@ -126,7 +137,7 @@ const portfolioData = {
         {
             title: "Weather App",
             description: "Beautiful weather dashboard with location-based forecasts.",
-            image: "/src/assets/images/weather.jpg",
+            image: weatherImg,
             technologies: ["Flutter", "Weather API", "Dart"],
             github: "",
             live: "",
@@ -135,7 +146,7 @@ const portfolioData = {
         {
             title: "Chess Game",
             description: "Chess game with smooth animations for mobile.",
-            image: "/src/assets/images/chess.jpg",
+            image: chessImg,
             technologies: ["Flutter", "Dart"],
             github: "",
             live: "",
@@ -144,7 +155,7 @@ const portfolioData = {
         {
             title: "Project LMS Website",
             description: "Responsive LMS website for projects (UNDER WORK!!).",
-            image: "/src/assets/images/lms.png",
+            image: lmsImg,
             technologies: ["React.js", "Tailwind CSS"],
             github: "",
             live: "",
@@ -764,12 +775,12 @@ export default function Portfolio() {
                                             } px-8 py-3 rounded-full transition-all duration-300 transform hover:scale-105`}
                                             onClick={() => {
                                                 const link = document.createElement('a');
-                                                link.href = '/MD_SOHAIL_CV.pdf';
+                                                link.href = `${import.meta.env.BASE_URL}MD_SOHAIL_CV.pdf`;
                                                 link.download = 'MD_SOHAIL_CV.pdf';
                                                 document.body.appendChild(link);
                                                 link.click();
                                                 document.body.removeChild(link);
-                                            }}
+                                              }}
                                         >
                                             <span className="flex items-center gap-2">
                                                 <Download className="w-4 h-4" />

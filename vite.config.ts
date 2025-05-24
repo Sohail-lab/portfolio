@@ -4,6 +4,7 @@ import path from "path"
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/portfolio/',
   plugins: [react()],
   resolve: {
     alias: {
@@ -11,7 +12,7 @@ export default defineConfig({
     },
   },
   server: {
-    host: '0.0.0.0',   // allows external access via IP
-    port: 5173,        // optional: change to another port if needed
+    host: '0.0.0.0',
+    port: 5173,
   },
 })
