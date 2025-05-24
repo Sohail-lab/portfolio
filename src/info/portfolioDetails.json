@@ -1,0 +1,62 @@
+{
+  "personal": {
+    "name": "Md Sohail",
+    "title": "React Native Developer",
+    "tagline": "Crafting digital experiences that inspire and engage",
+    "bio": "I'm a passionate developer with love for creating beautiful, functional web applications. I love turning complex problems into simple, elegant solutions.",
+    "location": "Greater Noida, UP, India",
+    "email": "reshmant90@gmail.com",
+    "phone": "+91 9955579725",
+    "social": {
+      "github": "https://github.com/Sohail-lab",
+      "linkedin": "https://www.linkedin.com/in/md-sohail-6ab5aa157",
+      "portfolio": "http://localhost:5173/"
+    }
+  },
+  "skills": {
+    "frontend": ["React.js", "Reace Native", "TypeScript", "Tailwind CSS", "Framer Motion", "JavaScript", "HTML", "CSS"],
+    "backend": ["Node.js", "MongoDB"],
+    "tools": ["Git", "Figma", "Vercel"],
+    "design": ["UI/UX Design", "Responsive Design"]
+  },
+  "experience": [
+    {
+      "company": "Digivity.in",
+      "position": "React Native Developer",
+      "duration": "2025-Present",
+      "description":
+      "Developed an android app of Learnocept educational platform.",
+      "technologies": ["React Native", "Node.js"]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Chirp - Messaging App",
+      "description":
+      "Build a real-time end-to-end messaging app for personal communication.",
+      "image": "/placeholder.svg?height=300&width=500",
+      "technologies": ["Flutter", "Firebase", "Dart"],
+      "github": "https://github.com/alexjohnson/taskapp",
+      "live": "https://taskapp-demo.vercel.app",
+      "featured": true
+    },
+    {
+      "title": "Weather App",
+      "description": "Beautiful weather dashboard with location-based forecasts.",
+      "image": "/placeholder.svg?height=300&width=500",
+      "technologies": ["Flutter", "Weather API", "Dart"],
+      "github": "https://github.com/alexjohnson/weather",
+      "live": "https://weather-demo.vercel.app",
+      "featured": false
+    },
+    {
+      "title": "Portfolio Website",
+      "description": "Responsive portfolio website with smooth animations, dark mode, and optimized performance.",
+      "image": "/placeholder.svg?height=300&width=500",
+      "technologies": ["Next.js", "Framer Motion", "Tailwind CSS"],
+      "github": "https://github.com/alexjohnson/portfolio",
+      "live": "https://alexjohnson.dev",
+      "featured": false
+    }
+  ]
+}
