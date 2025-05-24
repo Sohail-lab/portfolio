@@ -33,15 +33,15 @@ import { useTheme } from '@/context/ThemeContext'
 import { TypingEffect } from "@/components/ui/typing-effect"
 import { ThemeTransition } from "@/components/ui/theme-transition"
 
-import restateImg from "@/assets/images/restate.png";
-import chirpImg from "@/assets/images/chirp_1.jpg";
-import erpImg from "@/assets/images/erp.png";
-import verdantImg from "@/assets/images/verdant.png";
-import portfolioImg from "@/assets/images/portfolio.png";
-import tictacImg from "@/assets/images/tictac_2.jpg";
-import weatherImg from "@/assets/images/weather.jpg";
-import chessImg from "@/assets/images/chess.jpg";
-import lmsImg from "@/assets/images/lms.png";
+import restateImg from "@/assets/images/restate.webp";
+import chirpImg from "@/assets/images/chirp.webp";
+import erpImg from "@/assets/images/erp.webp";
+import verdantImg from "@/assets/images/verdant.webp";
+import portfolioImg from "@/assets/images/portfolio.webp";
+import tictacImg from "@/assets/images/tictac.webp";
+import weatherImg from "@/assets/images/weather.webp";
+import chessImg from "@/assets/images/chess.webp";
+import lmsImg from "@/assets/images/lms.webp";
 
 
 const FORMSPREE_ENDPOINT = import.meta.env.VITE_FORMSPREE_ENDPOINT
