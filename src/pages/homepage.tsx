@@ -50,8 +50,8 @@ const portfolioData = {
     personal: {
         name: "Md Sohail",
         title: "React Native Developer",
-        tagline: "Crafting digital experiences that inspire and engage",
-        bio: "I'm a passionate developer with love for creating beautiful, functional web applications. I love turning complex problems into simple, elegant solutions.",
+        tagline: "Learning endlessly, building everywhere.",
+        bio: "I’m a curious coder who loves crafting beautiful, functional apps for the web and mobile. Nothing excites me more than simplifying complex problems into clean, intuitive solutions.",
         location: "Noida, UP, India",
         email: "reshmant90@gmail.com",
         phone: "+91 9955579725",
@@ -70,10 +70,10 @@ const portfolioData = {
     experience: [
         {
             company: "Digivity.in",
-            position: "React Native Developer",
+            position: "React Native Developer (Intern)",
             duration: "2025-Present",
             description:
-                "Developed an android app of Learnocept educational platform.",
+                "Currently working as a React Native intern, building an Android application from the ground up. Contributing to the full development cycle — from UI implementation to functionality integration — while collaborating with the team to deliver a seamless mobile experience.",
             technologies: ["React Native", "JavaScript", "TypeScript"],
         },
     ],
@@ -910,8 +910,7 @@ export default function Portfolio() {
                                     whileInView={{ opacity: 1, y: 0 }}
                                     transition={{ duration: 0.6, delay: 0.4 }}
                                 >
-                                    When I'm not coding, you can find me exploring new technologies, contributing to open-source projects,
-                                    or sharing my knowledge through blog posts and mentoring.
+                                    Outside of coding, I enjoy diving into new tech, sharing what I learn through writing and mentoring, and I’m looking forward to contributing to open-source soon.
                                 </motion.p>
                                 <motion.div
                                     className="flex flex-wrap gap-4"
@@ -1067,7 +1066,7 @@ export default function Portfolio() {
                                     ? 'from-indigo-400 to-violet-400'
                                     : 'from-indigo-600 to-violet-600'
                             } bg-clip-text text-transparent leading-tight py-2`}>
-                                Featured Projects
+                                Projects
                             </h2>
                             <motion.div
                                 className="w-24 h-1 bg-gradient-to-r from-blue-400 to-purple-400 mx-auto mb-8"
